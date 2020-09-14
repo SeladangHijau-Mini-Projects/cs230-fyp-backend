@@ -1,0 +1,144 @@
+{
+    "map": {
+        "width": 700,
+        "heigh": 500,
+        "padding": 100,
+        "hexagonRadius": 10
+    },
+    "races": {
+        "mly": {
+            "id": "mly",
+            "name": "Malay",
+            "color": "#FF5555"
+        },
+        "chi": {
+            "id": "chi",
+            "name": "Chinese",
+            "color": "#FF0000"
+        },
+        "ind": {
+            "id": "ind",
+            "name": "Indian",
+            "color": "#FF00FF"
+        },
+        "sbh": {
+            "id": "sbh",
+            "name": "Sabah",
+            "color": "#0000FF"
+        },
+        "srk": {
+            "id": "srk",
+            "name": "Sarawak",
+            "color": "#FFFF00"
+        },
+        "oth": {
+            "id": "oth",
+            "name": "Other Races",
+            "color": "grey"
+        }
+    },
+    "parties": {
+        "bn": {
+            "id": "bn",
+            "name": "Barisan Nasional",
+            "color": "#0000FF"
+        },
+        "ph": {
+            "id": "ph",
+            "name": "Parti Harapan",
+            "color": "#00FFFF"
+        },
+        "pas": {
+            "id": "pas",
+            "name": "Parti Islam Se Malaysia",
+            "color": "#00FF00"
+        },
+        "oth": {
+            "id": "oth",
+            "name": "Other Parties",
+            "color": "#898989"
+        }
+    },
+    "states": {
+        "perlis": {
+            "id": "perlis",
+            "name": "Perlis",
+            "color": "#00FFFF"
+        },
+        "kedah": {
+            "id": "kedah",
+            "name": "Kedah",
+            "color": "#00FF00"
+        },
+        "pulau-pinang": {
+            "id": "pulau-pinang",
+            "name": "Pulau Pinang",
+            "color": "#FFD455"
+        },
+        "perak": {
+            "id": "perak",
+            "name": "Perak",
+            "color": "#FF0000"
+        },
+        "kelantan": {
+            "id": "kelantan",
+            "name": "Kelantan",
+            "color": "#FF00FF"
+        },
+        "selangor": {
+            "id": "selangor",
+            "name": "Selangor",
+            "color": "#FFAA7F"
+        },
+        "pahang": {
+            "id": "pahang",
+            "name": "Pahang",
+            "color": "#007FFF"
+        },
+        "terengganu": {
+            "id": "terengganu",
+            "name": "Terengganu",
+            "color": "#00FF80"
+        },
+        "kuala-lumpur": {
+            "id": "kuala-lumpur",
+            "name": "Kuala Lumpur",
+            "color": "#7FFF00"
+        },
+        "putrajaya": {
+            "id": "putrajaya",
+            "name": "Putrajaya",
+            "color": "#FF8000"
+        },
+        "negeri-sembilan": {
+            "id": "negeri-sembilan",
+            "name": "Negeri Sembilan",
+            "color": "#FF007F"
+        },
+        "melaka": {
+            "id": "melaka",
+            "name": "Melaka",
+            "color": "#8000FF"
+        },
+        "johor": {
+            "id": "johor",
+            "name": "Johor",
+            "color": "#008080"
+        },
+        "sabah": {
+            "id": "sabah",
+            "name": "Sabah",
+            "color": "#5555FF"
+        },
+        "sarawak": {
+            "id": "sarawak",
+            "name": "Sarawak",
+            "color": "#FF5555"
+        },
+        "labuan": {
+            "id": "labuan",
+            "name": "Labuan",
+            "color": "#808000"
+        }
+    }
+}
