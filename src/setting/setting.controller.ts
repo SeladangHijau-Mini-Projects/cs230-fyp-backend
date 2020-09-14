@@ -6,7 +6,7 @@ import { SettingService } from './setting.service';
 export class SettingController {
   constructor(private readonly settingService: SettingService) {}
 
-  @Get()
+  @Get('/latest')
   async getLatestSetting(): Promise<Setting> {
     return this.settingService.getLatestSetting();
   }
