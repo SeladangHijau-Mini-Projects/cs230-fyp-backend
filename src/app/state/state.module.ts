@@ -5,15 +5,15 @@ import { StateController } from './state.controller';
 import { StateService } from './state.service';
 
 const schemas = MongooseModule.forFeature([
-  {
-      name: State.name,
-      schema: StateSchema,
-  },
+    {
+        name: State.name,
+        schema: StateSchema,
+    },
 ]);
 
 @Module({
-  imports: [schemas],
-  controllers: [StateController],
-  providers: [StateService],
+    imports: [schemas],
+    controllers: [StateController],
+    providers: [StateService],
 })
 export class StateModule {}

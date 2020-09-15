@@ -12,6 +12,6 @@ export class StateService {
     }
 
     async getStateById(id: string): Promise<State> {
-        return this.stateModel.findOne({ 'id': id });
+        return this.stateModel.findOne({ id: id });
     }
 }

@@ -12,6 +12,6 @@ export class PartyService {
     }
 
     async getPartyById(id: string): Promise<Party> {
-        return this.partyModel.findOne({ 'id': id });
+        return this.partyModel.findOne({ id: id });
     }
 }

@@ -12,6 +12,6 @@ export class RaceService {
     }
 
     async getRaceById(id: string): Promise<Race> {
-        return this.raceModel.findOne({ 'id': id });
+        return this.raceModel.findOne({ id: id });
     }
 }

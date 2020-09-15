@@ -1,3 +1,6 @@
+# vscode specific
+.vscode
+
 .env
 
 # compiled output

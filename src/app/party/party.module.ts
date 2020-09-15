@@ -5,15 +5,15 @@ import { PartyController } from './party.controller';
 import { PartyService } from './party.service';
 
 const schemas = MongooseModule.forFeature([
-  {
-      name: Party.name,
-      schema: PartySchema,
-  },
+    {
+        name: Party.name,
+        schema: PartySchema,
+    },
 ]);
 
 @Module({
-  imports: [schemas],
-  controllers: [PartyController],
-  providers: [PartyService],
+    imports: [schemas],
+    controllers: [PartyController],
+    providers: [PartyService],
 })
 export class PartyModule {}

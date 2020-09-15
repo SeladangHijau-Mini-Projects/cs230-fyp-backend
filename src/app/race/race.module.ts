@@ -5,15 +5,15 @@ import { RaceController } from './race.controller';
 import { RaceService } from './race.service';
 
 const schemas = MongooseModule.forFeature([
-  {
-      name: Race.name,
-      schema: RaceSchema,
-  },
+    {
+        name: Race.name,
+        schema: RaceSchema,
+    },
 ]);
 
 @Module({
-  imports: [schemas],
-  controllers: [RaceController],
-  providers: [RaceService],
+    imports: [schemas],
+    controllers: [RaceController],
+    providers: [RaceService],
 })
 export class RaceModule {}
