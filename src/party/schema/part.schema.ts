@@ -2,7 +2,7 @@ import { Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
 import { Document } from 'mongoose';
 
 @Schema()
-export class Race extends Document {
+export class Party extends Document {
     @Prop()
     id: string;
 
@@ -10,7 +10,10 @@ export class Race extends Document {
     name: string;
 
     @Prop()
+    title: string;
+
+    @Prop()
     color: string;
 }
 
-export const RaceSchema = SchemaFactory.createForClass(Race);
+export const PartySchema = SchemaFactory.createForClass(Party);

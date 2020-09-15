@@ -5,7 +5,7 @@ import { Document } from 'mongoose';
 export class State extends Document {
     @Prop()
     id: string;
-    
+
     @Prop()
     name: string;
 
